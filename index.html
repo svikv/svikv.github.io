@@ -4,160 +4,148 @@
     <meta charset="UTF-8">
     <title>Welcome Drivelog</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<div class="container">
     <header>
-        <div class="container">
+        <div class="user-menu-container">
             <div class="drivelog-logo">
-                <img src="images/drivelog-logo.jpg" alt="">
+                <img class="image" src="images/logo_bosch.png" alt="">
             </div>
 
-            <div class="user-menu">
+            <div class="menu-container">
                 <ul>
-                    <li class="list-item">Menu</li>
-                    <li class="list-item">Anmelden</li>
+                    <li>Menu</li>
+                    <li>Anmelden</li>
                 </ul>
-                <div class="bosch">
-                    <p class="bosch-totle">powered by</p>
-                    <div class="bosch-logo">
-                        <img src="images/bosch-logo.jpg" alt="">
+                <div class="bosch-logo-container">
+                    <div class="bosch-logo-container-title">| powered by </div>
+                    <div class="bosch-logo-container-image">
+                        <img class="bosch-logo-image" src="images/bosch_logo.png" alt="">
                     </div>
                 </div>
             </div>
-        <div>
+        </div>
     </header>
 
     <main>
+        <p class="trademark-title">Inspektion / Berlin / A.T.U. Berlin - Wilmersdorf </p>
+
         <div class="workstation-image">
-            <img src="images/workstation.jpg" alt="">
+            <img src="images/workstation.png" alt="">
+            <img class="atu-logo" src="images/atu3.png" alt="">
+            <img class="map" src="images/map1.png" alt="">
         </div>
 
-        <div class="service-provider">
+        <div class="service-provider-container">
             <div class="rating-container">
-
-                <p class="raiting-info">
-                    <div class="atu-logo">
-                        <img src="images/bosch-logo.jpg" alt="">
-                    </div>
-
-                    <h1>A.T.U Berlin - Wilmersdorf</h1>
-                    <p>Freie Werkstatt</p>
-                    <div class="star">
-                        <ul>
-                            <li class="star-ctive"></li>
-                            <li class="star-active"></li>
-                            <li class="star-active"></li>
-                            <li class="star-active"></li>
-                            <li class="star-inactive"></li>
-                        </ul>
-                    </div>
-
-                    <p>
-                        <span id="rating"></span>Bevertungen
-                    </p>
-                    <p class="reference">
-                        <a href="">Werkstatt bewerten</a>
-                    </p>
+                <h3>A.T.U Berlin - Wilmersdorf</h3>
+                <p class="star-title">Freie Werkstatt</p>
+                <div class="stars">
+                    <ul>
+                        <li class="star"></li>
+                        <li class="star"></li>
+                        <li class="star"></li>
+                        <li class="star"></li>
+                        <li class="star"></li>
+                    </ul>
                 </div>
+                <p class="star-title">
+                    <span>4</span>Bevertungen
+                </p>
+                <p class="star-reference">
+                    <a href="" class="reference">Werkstatt bewerten</a>
+                </p>
 
-                <div class="service-provider-info">
-                    <h3>Die Nr. 1 Meisterwerkstaff</h3>
-                    <p></p>
+                <div class="main-info">
+                    <h4>Die Nr. 1 Meisterwerkstaff</h4>
+                    <p>Mobile bleiben mit A.T.U: In den uber 600 Meisterwerkstatten bietet A.T.U. proffesionellen Reparatur- und Wartungsservice fur
+                    nahezu alle Automarken. Dabei setzt das Unternehmen auf ein integriertes Konzept: Glaserne Werkstatt und Autofahrer-Fachmarkt sind fest
+                    miteinander verbunden. Eine hohe Warenverfugbarkeit, Schnellservice ohne lange Wartezeiten und kundenfreundliche
+                    Offnungszeiten perfektionieren das Angebot von A.T.U.</p>
                 </div>
             </div>
 
-            <div class="map-container">
-                <div class="map">
-                    <img src="images/map.jpg" alt="">
-                </div>
-
+            <div class="contact-container">
                 <div class="address">
-                    <p>Halenseestrabe</p>
+                    <p>Halenseestrabe 35</p>
                     <p>10711 Berlin</p>
-
-                    <p class="reference">
-                        <a href="">www.atu.de</a>
-                    </p>
-
-                    <p class="reference">
-                        <a href="">Telefonnummer anzeigen</a>
-                    </p>
+                    <p><a href="" class="reference">www.atu.de</a></p>
+                    <p><a href="" class="reference">Telefonnummer anzeigen</a></p>
                 </div>
 
                 <div class="working-hours">
-                    <p>Offnungszeiten</p>
+                    <p>Offnungszeiten:</p>
                     <p>Montag-Freitag: 08:00-18:00</p>
                 </div>
 
                 <div class="payment-terms">
-                    <p>Zahlung</p>
+                    <p>Zahlung:</p>
                     <p>Bar, EC-Karte, Mastercard, VISA</p>
                 </div>
-
-                <div class="">
-                    <div class="star-inactive">
-                        <img src="images/map.jpg" alt="">
-                    </div>
-
-                    <p class="reference">
-                        <a href="">Werkstatt als Favorit speichern</a>
-                    </p>
+                <div class="star-single">
+                    <a href="">
+                        <ul>
+                            <li class="star">Werkstatt als Favorit speichern</li>
+                        </ul>
+                    </a>
                 </div>
             </div>
         </div>
 
-        <section class="calculated-price-block">
-            <p>Unsere Werkstatt-Leistungen zum Festpreis</p>
+        <section class="calculated-price-container">
+            <h3>Unsere Werkstatt-Leistungen zum Festpreis</h3>
 
-            <div a href="" class="service">
+            <a href="#">
                 <p class="service-title">Inspektion</p>
                 <p class="price">90.00E</p>
-            </div>
+            </a>
 
-            <div a href="" class="service">
+            <a href="" class="service">
                 <p class="service-title">Olwechsel</p>
                 <p class="price">45.00E</p>
-            </div>
+            </a>
 
-            <div a href="" class="service">
+            <a href="" class="service">
                 <p class="service-title">Reifenmontage</p>
                 <p class="price">30.00E</p>
-            </div>
+            </a>
 
-            <div a href="" class="service">
+            <a href="" class="service">
                 <p class="service-title">Hauptuntersuchung</p>
                 <p class="price">115.00E</p>
-            </div>
+            </a>
 
-            <div a href="" class="service">
+            <a href="" class="service">
                 <p class="service-title">Wintercheck</p>
                 <p class="price">34.00E</p>
-            </div>
+            </a>
         </section>
 
         <section class="fixed-price-block">
             <p>Werkstatt-Leistungen ohne Festpreis</p>
 
-            <div a href="" class="service">
+            <a href="" class="service">
                 <p class="service-title">Motor-Service</p>
-            </div>
+            </a>
 
-            <div a href="" class="service">
+            <a href="" class="service">
                 <p class="service-title">Licht-service</p>
-            </div>
+            </a>
 
-            <div a href="" class="service">
+            <a href="" class="service">
                 <p class="service-title">Fahrwerk-Service</p>
-            </div>
+            </a>
 
-            <div a href="" class="service">
+            <a href="" class="service">
                 <p class="service-title">Abgas-/Auspuff-Service</p>
-            </div>
+            </a>
 
-            <div a href="" class="service">
+            <a href="" class="service">
                 <p class="service-title">Getriebe-/Kupplung-Service</p>
-            </div>
+            </a>
         </section>
 
         <div class="other-services">
@@ -487,6 +475,9 @@
     <footer>
         <div class ="container"></div>
     </footer>
+
+</div>
+
 
 
     <style>

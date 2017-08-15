@@ -1,4 +1,267 @@
-h1 {
-    color: yellow;
-
+.container {
+    width: 1070px;
+    margin: 0 auto;
 }
+
+.user-menu-container {
+    font-size: 0;
+    height: 70px;
+    /*background: blanchedalmond;*/
+}
+
+.drivelog-logo {
+    width:60%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    background-color: red;
+    font-size: 12px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 170px;
+}
+
+.image {
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.menu-container {
+    box-sizing: border-box;
+    width:40%;
+    display: inline-block;
+    vertical-align: top;
+    /*background-color: greenyellow;*/
+    position: relative;
+    font-size: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    /*height: 40px;*/
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    margin-right: 14px;
+}
+
+.menu-container ul li:first-child::before {
+    content: "";
+    background-image: url(../images/menu-button-of-three-lines.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.menu-container ul li:last-child::before {
+    content: "";
+    background-image: url(../images/user.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.bosch-logo-container {
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+}
+
+.bosch-logo-container-title {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 40px;
+}
+
+.bosch-logo-container-image{
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header {
+    border-bottom: 1px solid rgba(161, 161, 161, 0.56);
+}
+
+.workstation-image {
+    width: 1070px;
+    position: relative;
+}
+
+.rating-container {
+    /*background-color: burlywood;*/
+    width: 45%;
+    float: left;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+.star::before {
+    content: "";
+    background-image: url(../images/star-green.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.stars {
+    width: 50%;
+    margin: 0 auto;
+    /*background-color: yellow;*/
+}
+
+.stars ul {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 0;
+    /*background-color: blue;*/
+    text-align: center;
+}
+
+.star:last-child::before {
+    content: "";
+    background-image: url(../images/star-white.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.star {
+    margin: 0 auto
+}
+
+.contact-container {
+    float: right;
+    /*background-color: burlywood;*/
+    width: 36%;
+    margin-top: 87px;
+}
+
+h3 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.star-title {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    /*background-color: bisque;*/
+}
+
+.star-title span {
+    font-weight: bold;
+    /*margin: 0 10px;*/
+}
+
+.bosch-logo-image {
+    vertical-align: bottom;
+}
+
+.star-reference {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    /*background-color: bisque;*/
+    margin-bottom: 70px;
+}
+
+.main-info p {
+    font-size: 16px;
+}
+
+.atu-logo {
+    position: absolute;
+    top: 192px;
+    left: 356px;
+}
+
+.map {
+    position: absolute;
+    top: 192px;
+    left: 682px;
+}
+
+.address {
+font-size: 14px;
+    line-height: 5px;
+    margin: 0;
+}
+
+.address p:last-child {
+    margin: 30px 0 30px 0;
+}
+
+.working-hours {
+    font-size: 14px;
+    line-height: 5px;
+    margin: 0;
+}
+
+.working-hours p:first-child, .payment-terms p:first-child {
+    font-weight: bold;
+}
+
+.payment-terms {
+    font-size: 14px;
+    line-height: 5px;
+    margin: 30px 0 30px 0;
+}
+
+.reference {
+    color: green;
+}
+
+.star-single {
+    margin-left: -40px;
+    margin-top: -20px;
+}
+
+.star-single ul li {
+    color: green;
+}
+
+.calculated-price-container {
+    clear: both;
+}
+
+
+
