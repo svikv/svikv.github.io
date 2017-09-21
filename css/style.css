@@ -88,7 +88,6 @@ li {
 }
 
 .bosch-logo-container-image{
-    background-color: red;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -283,7 +282,6 @@ header {
     width: 552px;
     float: left;
 }
-
 
 .additional-services-container ul {
     margin-left: -40px;
@@ -633,6 +631,13 @@ header {
     margin-bottom: 40px;
 }
 
+textarea {
+    margin-bottom: 24px;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .submit-form {
     padding: 5px 80px;
     border-radius: 4px;
@@ -642,13 +647,123 @@ header {
     cursor: pointer;
 }
 
-textarea {
-    margin-bottom: 24px;
-    resize: none;
-    width: 100%;
-    box-sizing: border-box;
+.submit-button-container {
+    float: right;
 }
 
-.submit-form-container {
+.form-container {
+    margin-bottom: 150px;
+}
+
+.print {
+    color: grey;
+    margin-bottom: 14px;
+}
+
+.tel {
+    color: grey;
+    margin-bottom: 70px;
+}
+
+.la {
+    background-color: yellowgreen;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    margin-top: -60px;
+    color: grey;
+}
+
+.footer-container {
+    width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size:14px;
+    background-color: #f1f1f1;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.icon {
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.foot {
     float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon-container {
+    height: 80px;
+    background-color: #f1f1f1;
+}
+
+.icons {
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    width: calc(100% / 5 - 0px);
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.first-raw {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.raw {
+    margin-bottom: 15px;
+}
+
+.logotype {
+    height: 55px;
+    width: 192px;
+}
+
+.trademark-container {
+    background-color: #4e4e4e;
+    height: 50px;
+}
+
+.trademark {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.trademark-left {
+    display: inline-block;
+    float: left;
+}
+
+.trademark-right {
+    display: inline-block;
+    float: right;
+}
+
+.footer-second {
+    background-color: #4e4e4e;
 }
